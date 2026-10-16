@@ -29,11 +29,13 @@ A bright, modern eCommerce frontend built with **React**, **TypeScript** and **V
 
 **Requirements:** Node.js 18 or newer.
 
+```bash
 # 1. Install dependencies
 npm install
 
 # 2. Start the dev server (http://localhost:5173)
 npm run dev
+```
 
 ## Scripts
 
