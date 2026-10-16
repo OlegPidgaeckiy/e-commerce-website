@@ -1,17 +1,17 @@
 # VELORA — React eCommerce Storefront
 
-A bright, modern eCommerce frontend built with React, TypeScript and Vite. Products and categories are loaded live from the public DummyJSON API, so no backend or API key is required.
+A bright, modern eCommerce frontend built with **React**, **TypeScript** and **Vite**. Products and categories are loaded live from the public [DummyJSON](https://dummyjson.com) API, so no backend or API key is required.
 
 ## Tech Stack
 
 | Area | Technology |
 | --- | --- |
-| UI library | React 18 |
-| Language | TypeScript 5 (strict mode) |
-| Build tool / dev server | Vite 6 with @vitejs/plugin-react |
-| Icons | Lucide React |
+| UI library | [React 18](https://react.dev) |
+| Language | [TypeScript 5](https://www.typescriptlang.org) (strict mode) |
+| Build tool / dev server | [Vite 6](https://vite.dev) with `@vitejs/plugin-react` |
+| Icons | [Lucide React](https://lucide.dev) |
 | Styling | Plain CSS (`src/styles.css`) |
-| Data | DummyJSON REST API |
+| Data | [DummyJSON](https://dummyjson.com) REST API |
 
 ## Features
 
@@ -27,24 +27,27 @@ A bright, modern eCommerce frontend built with React, TypeScript and Vite. Produ
 
 ## Getting Started
 
-Requirements: Node.js 18 or newer.
+**Requirements:** Node.js 18 or newer.
 
+```bash
 # 1. Install dependencies
 npm install
 
 # 2. Start the dev server (http://localhost:5173)
 npm run dev
+```
 
 ## Scripts
 
 | Command | Description |
 | --- | --- |
-| npm run dev | Start the Vite dev server with hot reload |
-| npm run build | Type-check with tsc and create a production build in dist/ |
-| npm run preview | Serve the production build locally |
+| `npm run dev` | Start the Vite dev server with hot reload |
+| `npm run build` | Type-check with `tsc` and create a production build in `dist/` |
+| `npm run preview` | Serve the production build locally |
 
 ## Project Structure
 
+```text
 eCommerce/
 ├── index.html
 ├── package.json
@@ -66,12 +69,14 @@ eCommerce/
         ├── Story.tsx
         ├── Newsletter.tsx
         └── Footer.tsx
+```
 
 ## Data Source
 
 | Endpoint | Purpose |
 | --- | --- |
-| https://dummyjson.com/products?limit=100 | Product list |
-| https://dummyjson.com/products/categories | Category list |
+| `https://dummyjson.com/products?limit=100` | Product list |
+| `https://dummyjson.com/products/categories` | Category list |
 
 An internet connection is required for products to load.
+
